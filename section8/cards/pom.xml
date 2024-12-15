@@ -132,7 +132,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>nguyentruongtoan/${project.artifactId}:s6</image>
+						<image>nguyentruongtoan/${project.artifactId}:s8</image>
 					</to>
 				</configuration>
 			</plugin>
