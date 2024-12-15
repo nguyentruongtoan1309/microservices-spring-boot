@@ -53,6 +53,17 @@ services:
       file: common-config.yml
       service: microservice-eurekaserver-config
 
+  loans1:
+    image: "nguyentruongtoan/loans:s8"
+    container_name: loans-ms1
+    ports:
+      - "8091:8090"
+    environment:
+      SPRING_APPLICATION_NAME: "loans"
+    extends:
+      file: common-config.yml
+      service: microservice-eurekaserver-config
+
   cards:
     image: "nguyentruongtoan/cards:s8"
     container_name: cards-ms
